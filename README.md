@@ -5,6 +5,7 @@ cargos
 	id:integer
 	nombre:string
 	id_nodo:integer
+	direccion_oficina:string
 ---------------------
 nodos
 
@@ -20,5 +21,8 @@ personas
 	id_persona:integer
 	nombre:string
 	apellido:string
-	id_nodo:integer
+	email:string
+	facebook:url
+	instagram:url
+	twitter:url
 ---------------------
