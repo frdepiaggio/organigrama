@@ -1,24 +1,23 @@
 # organigrama
 
-cargos
+oficinas
 
-	id_cargo:integer
-	nombre_cargo:string
+	id_oficina:integer
+	nombre_oficina:string
 	id_nodo:integer
 	direccion_oficina:string
+	id_funcionario: integer
 ---------------------
 nodos
 
 	id_nodo:integer
-	nombre:string
 	nivel:integer
-	id_cargo:integer
-	id_persona:integer
+	id_oficina:integer
 	id_padre:integer
 ---------------------
-personas
+funcionarios
 
-	id_persona:integer
+	id_funcionario:integer
 	nombre_per:string
 	apellido_per:string
 	email:string
