@@ -2,8 +2,8 @@
 
 cargos
 
-	id:integer
-	nombre:string
+	id_cargo:integer
+	nombre_cargo:string
 	id_nodo:integer
 	direccion_oficina:string
 ---------------------
@@ -19,8 +19,8 @@ nodos
 personas
 
 	id_persona:integer
-	nombre:string
-	apellido:string
+	nombre_per:string
+	apellido_per:string
 	email:string
 	facebook:url
 	instagram:url
